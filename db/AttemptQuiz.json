@@ -1,42 +1,19 @@
 {
+    "id": "abc123",
     "username": "vivek@gmail.com",
-    "quizzes": [
+    "marks": 2,
+    "details": [
         {
-            "id": "abc123",
-            "marks": 2,
-            "details": [
-                {
-                    "quenum": 1,
-                    "answers": [
-                        "op1",
-                        "op2"
-                    ]
-                },
-                {
-                    "quenum": 2,
-                    "answers": [
-                        "op2"
-                    ]
-                }
+            "Quenum": 1,
+            "answers": [
+                "op1",
+                "op2"
             ]
         },
         {
-            "id": "def456",
-            "marks": 1,
-            "details": [
-                {
-                    "quenum": 1,
-                    "answers": [
-                        "op1",
-                        "op2"
-                    ]
-                },
-                {
-                    "quenum": 2,
-                    "answers": [
-                        "op2"
-                    ]
-                }
+            "Quenum": 2,
+            "answers": [
+                "op2"
             ]
         }
     ]
