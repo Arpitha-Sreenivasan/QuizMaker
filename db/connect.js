@@ -1,7 +1,7 @@
 const {MongoClient} =require('mongodb');
 
 async function main(){
-    const dbpath='mongodb+srv://QuizMaker123:quizpass@quizcluster.fisgy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+    const dbpath='mongodb+srv://QuizMaker123:quiz@quizcluster.fisgy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
     const client=new MongoClient(dbpath);
     try{
