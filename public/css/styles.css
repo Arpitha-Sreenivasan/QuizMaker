@@ -1,0 +1,148 @@
+html,body {
+    height:100%;
+    width:100%;
+    margin:10px;
+  }
+.body {
+   display:flex;
+}
+
+a{
+    font-family: 'Cabin', sans-serif;
+    margin: 10px;
+}
+
+h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+
+.buttonFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerForm{
+    font-family: 'Cabin', sans-serif;
+    margin:auto;
+}
+.container{
+    margin: auto;
+}
+
+input{
+    margin: 5px;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 20px;
+}
+
+select{
+    margin: 5px;
+}
+
+option{
+    font-family: 'Cabin', sans-serif;
+}
+
+button{
+    margin: 10px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px 1px rgb(172, 172, 172);
+    font-family: 'Cabin', sans-serif;
+}
+
+.homeBtn{
+    padding: 30px;
+    width: 200px;
+}
+
+.loginbtn{
+    padding: 10px;
+    margin: 10px;
+    width: 60px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px 1px rgb(172, 172, 172);
+}
+
+.createQuizBtn{
+    padding: 5px;
+    width: 100px;
+}
+
+.myform{
+    margin-left: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#addQuestionBtn{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px 1px rgb(172, 172, 172);
+}
+
+.landingBtn{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 20px;
+    width: 80px;
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 20px;
+}
+
+#navbar-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(254, 223, 205);
+    box-shadow: 0px 0px 7px 1px rgb(172, 172, 172);
+    justify-content: space-between;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: rgb(254, 223, 205);
+    justify-content: space-between;
+}
+
+#QuizMaker{
+
+}
+
+.navbarTitle{
+    margin-left: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size:xx-large;
+    color:rgb(91, 43, 9);
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+}
+
+.nav-btn{
+    height: 30px;
+    width: 100px;
+}
+
+h2{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 20px;
+}

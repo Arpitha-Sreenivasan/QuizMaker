@@ -1,0 +1,18 @@
+<form name="myform" method="post" action="/submitQuiz">
+<% result.forEach((res)=>{ %>
+    <input type="hidden" id="qid" name="qid" value="<%= res.id %>">
+    <% let quesCount=0; res.details.questions.forEach((ques)=>{ %>
+        <div><p> <%= ques.quesNumber %>) <%= ques.questionText %> </p></div>
+        <% ques.options.forEach((option)=>{ %>
+            <input type="checkbox" value="<%= option %>" name="<%= ques.quesNumber %>" id="<%= ques.quesNumber %>_<%= option %>"><%= option %> <br/>
+        <%});%>
+        <% quesCount++; %>
+    <% }); %>
+    <input type="hidden" id="quesCount" name="quesCount" value="<%= quesCount %>">
+<% }); %>
+<button type="submit" name="submitquiz" id="submitquiz">Submit Quiz</button>
+<button type="reset" name="resetquiz" id="resetquiz">Reset Quiz</button>
+</form>
+
+
+
