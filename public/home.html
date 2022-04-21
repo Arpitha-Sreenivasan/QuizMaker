@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HOME PAGE</title>
+  <title>Quiz Maker</title>
   <script src="./js/home.js"></script>
+  <script src="./js/loadbar.js"></script>
   <link rel="stylesheet" href="./css/styles.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda+Caption:wght@800&family=Kanit:wght@900&family=Lacquer&family=Pacifico&family=Rubik+Mono+One&family=Signika+Negative:wght@300&family=Square+Peg&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>Welcome to Quiz Generator</h1>
-  <div class="buttonsFlex">
-    <button class="homeBtn" onclick="document.location='register.html'">REGISTER</button>
-    <button class="homeBtn" onclick="document.location='login.html'">LOGIN</button>
+<body class="homePage">
+
+  <div id="navbar-container">
+    <div class="navbarTitle" id="QuizMaker">
+        Quiz Maker
+    </div>
+    <div class="navbar-container navbar-buttons">
+            <div class="a-buttons">
+              <a href="./login.html">Login</a>
+            </div>
+            <div class="a-buttons">
+              <a href="./register.html">Register</a>
+            </div>
+    </div>
   </div>
-  
+  <div class="home-section section1">
+    <h2 class="homeText">Want to create your own Quiz?</h2>
+    <button class="moveDown"><a href="#about-us"><img id="downArrow" src="./images/icons8-arrow-91.png"/></a></button>
+  </div>
+  <div class="home-section" id="about-us">
+    <h2 class="homeText" id="about">About us</h2>
+    <p class="simple">
+      This is a website which will help you create quizzes<br> with atmost convinience and makes it extremely simple to share and attempt them.
+    </p>
+      <button class="homeBtn aboutBtn"><img class="icon" src="./images/icons8-teacher-64.png"><br><b>CREATE QUIZ</b><br>you can create your own quizzes</button>
+      <button class="homeBtn aboutBtn"><img class="icon" src="./images/icons8-student-64.png"><br><b>ATTEMPT QUIZ</b><br>you can attempt quizzes created by others</button>
+      <button class="homeBtn aboutBtn"><img class="icon" src="./images/icons8-report-card-50.png"><br><b>GET RESULTS</b><br>you can get the quizzes evaluated</button>
+      <button class="homeBtn aboutBtn"><img class="icon" src="./images/icons8-order-history-50.png"><br><b>VIEW HISTORY</b><br>you can view you previously created or attempted quizzes</button>      
+  </div>
+  <div class="home-section signin" id="login-register">
+    <h2 class="homeText sign" id="about">Wondering how to use it?</h2>
+    <p class="simple">
+      make your own account today!
+    </p>
+    <div class="buttonsFlex">
+      <button class="homeBtn" onclick="document.location='register.html'"><img class="icon" src="./images/icons8-sign-up-50.png"><br>SIGN UP</button>
+      <button class="homeBtn" onclick="document.location='login.html'"><img class="icon" src="./images/icons8-login-50.png"><br>LOGIN</button>
+    </div>
+  </div>
 </body>
 </html>

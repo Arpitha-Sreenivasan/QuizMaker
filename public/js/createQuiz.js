@@ -1,5 +1,12 @@
 let eleNum = 0;
 
+function checkSession() {
+	if(typeof sessionStorage.EMAIL == 'undefined'){
+        window.location.href = "home.html"
+    }
+}
+window.onload = checkSession;
+
 async function setCheckBoxValue(event,eleId,count){
     event.preventDefault();
     var val=event.target.value    

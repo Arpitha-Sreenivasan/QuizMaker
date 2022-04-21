@@ -1,3 +1,10 @@
+function checkSession() {
+	if(typeof sessionStorage.EMAIL == 'undefined'){
+        window.location.href = "home.html"
+    }
+}
+window.onload = checkSession;
+
 //function to remove all children added before so multiple quiz elements are not present
 function removeAllChildren(parent){
     while(parent.firstChild){

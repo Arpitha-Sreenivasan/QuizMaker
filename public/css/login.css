@@ -1,21 +1,114 @@
-<style type="text/css">
-    body{
-        font-family: Calibri;
-    }
-    input[type="text"], input[type="password"] {
-        width: 250px;
-    }
-    input[type="submit"] {
-        width: 77px;
-        height: 27px;
-        position: relative;left: 50px;
-    }
-    form{
-        text-align: center;
-        font-family: Calibri;
-        font-size: 20px;
-        border: 3px solid black;
-        width: 600px;
-        margin: 20px auto;
-    }
-</style>
+html,body {
+    height:100%;
+    width:100%;
+  }
+
+.body {
+   display:flex;
+   flex-direction: column;
+   background-color: #e6b005;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.centerForm{
+    font-family: 'Signika Negative', sans-serif;
+    margin:auto;
+    font-size: 20px;
+}
+.container{
+    margin: auto;
+    background-color: #e3e3e3;
+    padding: 50px;
+    box-shadow: 0px 0px 7px 1px rgb(54, 54, 54);
+    border-radius: 4px;
+}
+
+input{
+    margin: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+select{
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+option{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+}
+
+.loginbtn{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 7px 1px rgb(172, 172, 172);
+}
+
+a{
+    font-family: 'Signika Negative', sans-serif;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: large;
+}
+
+.a-buttons{
+    padding: 25px;
+}
+
+.a-buttons:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+#navbar-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 1px rgb(172, 172, 172);
+    justify-content: space-between;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.navbar-buttons{
+    justify-content: center;
+}
+
+#QuizMaker{
+
+}
+
+.navbarTitle{
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size:xx-large;
+    color:rgb(88, 88, 88);
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+}
+
+.nav-btn{
+    height: 30px;
+    width: 100px;
+}

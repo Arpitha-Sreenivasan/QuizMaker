@@ -1,4 +1,12 @@
 let LOGINTYPE="Attempt Quiz";
+
+function checkSession() {
+if(typeof sessionStorage.EMAIL != 'undefined'){
+      window.location.href = "landingPage.html"
+  }
+}
+window.onload = checkSession;
+
 function validatelogin(){
 var formdetails={
   email: document.myform.email.value,

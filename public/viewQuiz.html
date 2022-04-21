@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css"/>
+    <script src="./js/landingPage.js"></script>
     <script src="./js/navbar.js" type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Plus+Jakarta+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda+Caption:wght@800&family=Kanit:wght@900&family=Lacquer&family=Pacifico&family=Rubik+Mono+One&family=Signika+Negative:wght@300&family=Square+Peg&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
 
     <!--IMPORTS-->
     <script src="./js/viewQuiz.js" type="text/javascript"></script>
     <!--/IMPORTS-->
     
-    <title>Quiz Generator</title>
+    <title>Quiz Maker</title>
 </head>
-<body>
+<body class="landingQuiz">
     <div id="navbar-container">
         <div class="navbarTitle" id="QuizMaker">
             Quiz Maker
         </div>
-        <div class="navbar-container">
-                <button class="nav-btn" onclick="home()">Home</button>
-                <button class="nav-btn" onclick="logout()">Logout</button>
+        <div class="navbar-container navbar-buttons">
+                <div class="a-buttons">
+                  <a href="./home.html">Home</a>
+                </div>
+                <div class="a-buttons">
+                  <a href="./home.html">Logout</a>
+                </div>
         </div>
-    </div>
-    <div><h1>View Quiz</h1></div>
+      </div>
+    <div><h1 class="createHeading">View Quiz</h1></div>
     <div id="searchquiz-container">
         <p>Enter quiz code you have attempted.</p>
         <!--Taking Quiz Code from user-->

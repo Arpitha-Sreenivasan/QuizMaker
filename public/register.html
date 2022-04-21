@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/register.css">
-    <title>REGISTER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda+Caption:wght@800&family=Kanit:wght@900&family=Lacquer&family=Pacifico&family=Rubik+Mono+One&family=Signika+Negative:wght@300&family=Square+Peg&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Quiz Maker</title>
 </head>
-<body>
+<body class="landingQuiz">
   <script src="./js/register.js"></script>
+  <div id="navbar-container">
+    <div class="navbarTitle" id="QuizMaker">
+        Quiz Maker
+    </div>
+    <div class="navbar-container navbar-buttons">
+            <div class="a-buttons">
+              <a href="./home.html">Home</a>
+            </div>
+            <div class="a-buttons">
+              <a href="./login.html">Login</a>
+            </div>
+    </div>
+  </div>
   <div class="title_container">
-      <h2>Registration Form</h2>
+      <h1 class="createHeading">Registration Form</h1>
     </div>
   <div class="container">
-  <form name="myform" method="post">
+  <form class="myform" name="myform" method="post">
   Email: <input type="text" name="email"><br/>
   Password: <input type="password" name="password"><br/>
   Retype-Password: <input type="password" name="retypepassword"><br/>
-  <input type="button" value="REGISTER" onclick="validateform()" class="registerbtn">
+  <input class="Btn" type="button" value="Register" onclick="validateform()" class="registerbtn">
 </div>
   </form>
 </body>
