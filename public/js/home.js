@@ -3,4 +3,5 @@ function checkSession() {
         window.location.href = "landingPage.html"
     }
 }
+
 window.onload = checkSession;
